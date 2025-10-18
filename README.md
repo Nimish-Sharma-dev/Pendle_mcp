@@ -1,10 +1,18 @@
 Pendle Finance FastMCP Server 🚀
 
-This repository contains a Model Context Protocol (MCP) Server built using the FastMCP framework in Python.
-This server exposes functions (like getting yields, simulating staking, and AI-driven yield predictions) from the Pendle Finance DeFi Protocol to be used by AI agents or clients like MCP Inspector.
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-v0.100.0-green)
 
+This repository contains a *Model Context Protocol (MCP) Server* built with *FastMCP* in Python.  
+It connects to *Pendle Finance* DeFi Protocol and exposes endpoints for AI agents or clients like *MCP Inspector*.
 
----
+Features include:
+- Fetching live yields from Pendle API
+- Simulating staking and swaps
+- Retrieving user DeFi portfolio
+- AI-based token recommendations (simulated)
+- AI future yield predictions (simulated)
+
 
 ⚙ Setup and Installation
 
@@ -17,8 +25,8 @@ Node.js 16+ if you want to use MCP Inspector
 
 2. Clone This Repo
 
-git clone https://github.com/yourusername/PendleMCP
-cd PendleMCP
+git clone https://github.com/maneesa029/Pendle_mcp
+cd Pendle_mcp
 
 3. Create and Activate a Virtual Environment
 
