@@ -4,6 +4,7 @@ import requests
 from typing import Dict, Any
 from pydantic import BaseModel, Field
 from fastmcp import FastMCP
+from fastapi import FastAPI
 app = FastAPI(title="Pendle FastMCP API")
 
 @app.get("/")
@@ -41,6 +42,8 @@ else:
     except Exception as e:
         wallet_valid = False
         print(f"ERROR: Invalid private key: {e}", file=sys.stderr)
+
+
 
 # -------------------------------
 # 3. INITIALIZE FASTMCP SERVER
