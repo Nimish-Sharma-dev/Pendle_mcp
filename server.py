@@ -4,6 +4,12 @@ import requests
 from typing import Dict, Any
 from pydantic import BaseModel, Field
 from fastmcp import FastMCP
+
+app = FastAPI(title="Pendle FastMCP API")
+
+@app.get("/")
+def home():
+    return {"message": "Pendle Finance MCP is running successfully 🚀"}
 from dotenv import load_dotenv
 from web3 import Web3
 from eth_account import Account
