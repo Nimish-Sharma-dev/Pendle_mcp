@@ -1,0 +1,8 @@
+fastmcp
+python-dotenv
+eth-account
+web3
+requests
+pydantic
+scikit-learn      # for simple AI predictions
+prophet           
