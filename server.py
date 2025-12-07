@@ -3,16 +3,10 @@ import sys
 import requests
 from typing import Dict, Any
 from pydantic import BaseModel, Field
-from fastmcp import FastMCP
-from fastapi import FastAPI
-app = FastAPI(title="Pendle FastMCP API")
-
-@app.get("/")
-def home():
-    return {"message": "Pendle Finance MCP is running successfully 🚀"}
 from dotenv import load_dotenv
 from web3 import Web3
 from eth_account import Account
+from fastmcp import FastMCP
 from ai_models import predict_best_yield, predict_future_yield  # AI logic
 
 # -------------------------------
