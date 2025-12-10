@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "pendle": {
+            "command": "C:\\Program Files\\Python314\\python.exe",
+            "args": [
+                "c:\\Users\\Test\\Downloads\\Nimish's file\\Pendle.project\\Pendle_mcp\\server.py"
+            ]
+        }
+    }
+}

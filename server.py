@@ -655,4 +655,11 @@ if __name__ == "__main__":
     logger.info("=" * 60)
     
     # Run the MCP server (stdio mode)
-    mcp.run()
+    try:
+        mcp.run()
+    except KeyboardInterrupt:
+        logger.info("Server stopped by user")
+    except Exception as e:
+        logger.error(f"Server error: {e}")
+        raise
+
