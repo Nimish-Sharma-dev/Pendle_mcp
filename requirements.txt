@@ -1,8 +1,15 @@
-fastmcp
-python-dotenv
-eth-account
-web3
-requests
-pydantic
-scikit-learn      # for simple AI predictions
-prophet           
+# FastMCP - Model Context Protocol server framework
+fastmcp>=0.2.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Ethereum blockchain interaction
+eth-account>=0.10.0
+web3>=6.0.0
+
+# HTTP requests for Pendle API
+requests>=2.31.0
+
+# Data validation and serialization
+pydantic>=2.0.0
